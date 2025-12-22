@@ -1,5 +1,5 @@
 ***
-# OpenSymphony SiteMesh 2.5
+# OpenSymphony SiteMesh 2.7
 ***
 
 SiteMesh is a web-page layout system that can be used to abstract common look
@@ -25,9 +25,9 @@ The latest version of SiteMesh can be obtained from:
 | --------------- | --------------- | --------------- | --------------- |
 | Java 7+ | Java 8+ | Java 17+ (2.4.x base) | Java 17+ (2.5.x base) |
 | Servlet API 3.1-4.0.1 | Servlet API 3.1-4.0.1 | Jakarta | Jakarta |
-|[2.4.x](https://github.com/sitemesh/sitemesh2/tree/2.4.x)| [2.5.x](https://github.com/sitemesh/sitemesh2/tree/2.5.x)|[2.6.x](https://github.com/sitemesh/sitemesh2/tree/2.6.x)| [2.7.x](https://github.com/sitemesh/sitemesh2/tree/master)|
+|[2.4.x](https://github.com/sitemesh/sitemesh2/tree/2.4.x)| [2.5.x](https://github.com/sitemesh/sitemesh2/tree/2.5.x)|[2.6.x](https://github.com/sitemesh/sitemesh2/tree/2.6.x)| [master](https://github.com/sitemesh/sitemesh2/tree/master)|
 ||[Java Docs](https://sitemesh.github.io/sitemesh2/api/)|||
-| [Download 2.4.4](https://github.com/sitemesh/sitemesh2/releases/tag/2.4.4) | [Download 2.5.0](https://github.com/sitemesh/sitemesh2/releases/tag/2.5.0)| [Download 2.6.0-M1](https://github.com/sitemesh/sitemesh2/releases/tag/2.6.0-M1)| [Download 2.7.0-M1](https://github.com/sitemesh/sitemesh2/releases/tag/2.7.0-M1)|
+| [Download 2.4.4](https://github.com/sitemesh/sitemesh2/releases/tag/2.4.4) | [Download 2.5.0](https://github.com/sitemesh/sitemesh2/releases/tag/2.5.0)| [Download 2.6.0](https://github.com/sitemesh/sitemesh2/releases/tag/2.6.0)| [Download 2.7.0-M1](https://github.com/sitemesh/sitemesh2/releases/tag/2.7.0-M1)|
 
 
 Docs:
@@ -55,18 +55,12 @@ To force refreshing a snapshot, run:
 ## Requirements
 ***
 
-SiteMesh requires a Java Servlet container conforming to the Servlet 3.1
-specification. Versions prior to 2.3 are not enough.
+SiteMesh requires a Java Servlet container conforming to the [Jakarta Servlet 6.0 specification](https://jakarta.ee/specifications/servlet/6.0/). Versions prior to 6.0 are not enough.
 
 Currently known containers that support this and SiteMesh was tested with:
 
-* Orion 1.5.4 and up                         - http://www.orionserver.com
-* Tomcat 4.0, 4.1 and 5.0.19                 - http://jakarta.apache.org/tomcat
-* Resin 2.1.11, 2.1.12, 2.1.13 and 3.0.7     - http://www.caucho.com
-* Oracle OC4J 2                              - http://www.oracle.com
-* WebLogic 7.0 SP2, 8.1 and 8.1 SP2          - http://www.bea.com
-* WebSphere 5.0                              - http://www.ibm.com
-* Jetty 4.2.20                               - http://jetty.mortbay.org
+* Tomcat 10.1                                - https://tomcat.apache.org
+* Jetty 12.0                                 - https://jetty.org
 
 ## Installation
 ***
