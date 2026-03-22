@@ -81,12 +81,12 @@ publishing {
             from(components.java)
             pom {
                 name = 'Sitemesh'
-                description = 'SiteMesh is a web-page layout and decoration framework and web- application integration framework to aid in creating large sites consisting of many pages for which a consistent look/feel, navigation and layout scheme is required.'
-                url = 'https://github.com/sitemesh/sitemesh2'
+                description = 'SiteMesh is a web-page layout and decoration framework and web-application integration framework to aid in creating large sites consisting of many pages for which a consistent look/feel, navigation and layout scheme is required.'
+                url = 'https://github.com/graceframework/sitemesh-jakarta'
                 licenses {
                     license {
                         name =  'The Apache Software License, Version 1.1'
-                        url = 'https://raw.githubusercontent.com/sitemesh/sitemesh2/master/LICENSE.txt'
+                        url = 'https://raw.githubusercontent.com/graceframework/sitemesh-jakarta/2.6.x/LICENSE.txt'
                         distribution =  'repo'
                     }
                 }
@@ -102,16 +102,16 @@ publishing {
                     }
                 }
                 organization {
-                    name = 'OpenSymphony'
+                    name = 'Grace Framework'
                 }
                 scm {
-                    connection = 'scm:git:git://github.com/sitemesh/sitemesh2.git'
-                    developerConnection = 'scm:git:git@github.com:sitemesh/sitemesh2.git'
-                    url = 'https://github.com/sitemesh/sitemesh2/'
+                    connection = 'scm:git:git://github.com/graceframework/sitemesh-jakarta.git'
+                    developerConnection = 'scm:git:git@github.com:sitemesh/sitemesh-jakarta.git'
+                    url = 'https://github.com/graceframework/sitemesh-jakarta/'
                 }
                 issueManagement {
                     system = 'GitHub'
-                    url = 'https://github.com/sitemesh/sitemesh2/issues'
+                    url = 'https://github.com/graceframework/sitemesh-jakarta/issues'
                 }
             }
         }
