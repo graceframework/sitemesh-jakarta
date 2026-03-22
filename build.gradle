@@ -85,7 +85,7 @@ publishing {
                 licenses {
                     license {
                         name =  'The Apache Software License, Version 1.1'
-                        url = 'https://raw.githubusercontent.com/graceframework/sitemesh-jakarta/2.6.x/LICENSE.txt'
+                        url = 'https://raw.githubusercontent.com/graceframework/sitemesh-jakarta/2.7.x/LICENSE.txt'
                         distribution =  'repo'
                     }
                 }
