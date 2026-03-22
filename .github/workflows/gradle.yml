@@ -2,10 +2,10 @@ name: Grace CI
 on:
   push:
     branches:
-      - 2.6.x
+      - 2.7.x
   pull_request:
     branches:
-      - 2.6.x
+      - 2.7.x
   workflow_dispatch:
 jobs:
   build:
