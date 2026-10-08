@@ -1,5 +1,5 @@
 ***
-# OpenSymphony SiteMesh 2.7
+# OpenSymphony SiteMesh 2.8
 ***
 
 SiteMesh is a web-page layout system that can be used to abstract common look
@@ -21,13 +21,13 @@ things.
 
 The latest version of SiteMesh can be obtained from:
 
-| 2.4.x | 2.5.x | 2.6.x | 2.7.x | 
-| --------------- | --------------- | --------------- | --------------- |
-| Java 7+ | Java 8+ | Java 17+ (2.4.x base) | Java 17+ (2.5.x base) |
-| Servlet API 3.1-4.0.1 | Servlet API 3.1-4.0.1 | Jakarta | Jakarta |
-|[2.4.x](https://github.com/sitemesh/sitemesh2/tree/2.4.x)| [2.5.x](https://github.com/sitemesh/sitemesh2/tree/2.5.x)|[2.6.x](https://github.com/sitemesh/sitemesh2/tree/2.6.x)| [master](https://github.com/sitemesh/sitemesh2/tree/master)|
-||[Java Docs](https://sitemesh.github.io/sitemesh2/api/)|||
-| [Download 2.4.4](https://github.com/sitemesh/sitemesh2/releases/tag/2.4.4) | [Download 2.5.0](https://github.com/sitemesh/sitemesh2/releases/tag/2.5.0)| [Download 2.6.0](https://github.com/sitemesh/sitemesh2/releases/tag/2.6.0)| [Download 2.7.0-M1](https://github.com/sitemesh/sitemesh2/releases/tag/2.7.0-M1)|
+| 2.4.x | 2.5.x | 2.6.x | 2.7.x | 2.8.x |
+| --------------- | --------------- | --------------- | --------------- | --------------- |
+| Java 7+ | Java 8+ | Java 17+ (2.4.x base) | Java 17+ (2.5.x base) | Java 17+ (2.5.x base) |
+| Servlet API 3.1-4.0.1 | Servlet API 3.1-4.0.1 | Jakarta EE 9 | Jakarta EE 10 | Jakarta EE 11 |
+|[2.4.x](https://github.com/sitemesh/sitemesh2/tree/2.4.x)| [2.5.x](https://github.com/sitemesh/sitemesh2/tree/2.5.x)|[2.6.x](https://github.com/graceframework/sitemesh-jakarta/tree/2.6.x)| [2.7.x](https://github.com/graceframework/sitemesh-jakarta/tree/2.7.x)| [2.8.x](https://github.com/graceframework/sitemesh-jakarta/tree/2.8.x)|
+||[Java Docs](https://sitemesh.github.io/sitemesh2/api/)||||
+| [Download 2.4.4](https://github.com/sitemesh/sitemesh2/releases/tag/2.4.4) | [Download 2.5.0](https://github.com/sitemesh/sitemesh2/releases/tag/2.5.0)| [Download 2.6.2](https://github.com/graceframework/sitemesh-jakarta/releases/tag/v2.6.2)| [Download 2.7.0](https://github.com/graceframework/sitemesh-jakarta/releases/tag/v2.7.0)| [Download 2.8.0-M1](https://github.com/graceframework/sitemesh-jakarta/releases/tag/v2.8.0-M1)|
 
 
 Docs:
@@ -55,12 +55,12 @@ To force refreshing a snapshot, run:
 ## Requirements
 ***
 
-SiteMesh requires a Java Servlet container conforming to the [Jakarta Servlet 6.0 specification](https://jakarta.ee/specifications/servlet/6.0/). Versions prior to 6.0 are not enough.
+SiteMesh requires a Java Servlet container conforming to the [Jakarta Servlet 6.1 specification](https://jakarta.ee/specifications/servlet/6.1/). Versions prior to 6.1 are not enough.
 
 Currently known containers that support this and SiteMesh was tested with:
 
-* Tomcat 10.1                                - https://tomcat.apache.org
-* Jetty 12.0                                 - https://jetty.org
+* Tomcat 11.0                                - https://tomcat.apache.org
+* Jetty 12.1                                 - https://jetty.org
 
 ## Installation
 ***
@@ -180,7 +180,7 @@ You can define as many decorators as you want in `decorators.xml`. Example:
 You get the idea. Play around. See the SiteMesh website for
 full documentation.
 
-https://github.com/sitemesh/sitemesh2/issues
+https://github.com/graceframework/sitemesh-jakarta/issues
 
 ## Credits
 ***
