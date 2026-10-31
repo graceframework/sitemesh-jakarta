@@ -27,7 +27,7 @@ The latest version of SiteMesh can be obtained from:
 | Servlet API 3.1-4.0.1 | Servlet API 3.1-4.0.1 | Jakarta EE 9 | Jakarta EE 10 | Jakarta EE 11 |
 |[2.4.x](https://github.com/sitemesh/sitemesh2/tree/2.4.x)| [2.5.x](https://github.com/sitemesh/sitemesh2/tree/2.5.x)|[2.6.x](https://github.com/graceframework/sitemesh-jakarta/tree/2.6.x)| [2.7.x](https://github.com/graceframework/sitemesh-jakarta/tree/2.7.x)| [2.8.x](https://github.com/graceframework/sitemesh-jakarta/tree/2.8.x)|
 ||[Java Docs](https://sitemesh.github.io/sitemesh2/api/)||||
-| [Download 2.4.4](https://github.com/sitemesh/sitemesh2/releases/tag/2.4.4) | [Download 2.5.0](https://github.com/sitemesh/sitemesh2/releases/tag/2.5.0)| [Download 2.6.2](https://github.com/graceframework/sitemesh-jakarta/releases/tag/v2.6.2)| [Download 2.7.0](https://github.com/graceframework/sitemesh-jakarta/releases/tag/v2.7.0)| [Download 2.8.0-M1](https://github.com/graceframework/sitemesh-jakarta/releases/tag/v2.8.0-M1)|
+| [Download 2.4.4](https://github.com/sitemesh/sitemesh2/releases/tag/2.4.4) | [Download 2.5.0](https://github.com/sitemesh/sitemesh2/releases/tag/2.5.0)| [Download 2.6.2](https://github.com/graceframework/sitemesh-jakarta/releases/tag/v2.6.2)| [Download 2.7.0](https://github.com/graceframework/sitemesh-jakarta/releases/tag/v2.7.0)| [Download 2.8.0](https://github.com/graceframework/sitemesh-jakarta/releases/tag/v2.8.0)|
 
 
 Docs:
