@@ -19,7 +19,7 @@
 
 		<p>This is a sample of an inline decorator accessing external content.</p>
 
-		<page:applyDecorator name="panel" page="https://www.github.com/sitemesh/sitemesh2" />
+		<page:applyDecorator name="panel" page="https://sitemesh.github.io/sitemesh2/" />
 
 	</body>
 </html>

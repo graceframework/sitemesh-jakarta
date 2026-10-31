@@ -13,7 +13,7 @@
 				<td valign="top">
 					<page:applyDecorator page="/tiny-panel.html" name="panel" />
 					<page:applyDecorator page="/counter.jsp" name="panel" />
-					<page:applyDecorator page="/google.html" name="panel" />
+					<%--page:applyDecorator page="/google.html" name="panel" /--%>
 					<%--page:applyDecorator page="/random.pl" name="panel" /--%>
 				</td>
 				<td width="100%">
